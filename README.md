@@ -33,7 +33,7 @@ or download the css on github and include in your project.
 
 .crw-i {      column-rule-width: inherit; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .crw-thin-ns {   column-rule-width: thin; }
   .crw-med-ns {    column-rule-width: medium; }
   .crw-thick-ns {  column-rule-width: thick; }
@@ -47,7 +47,7 @@ or download the css on github and include in your project.
   .crw-i-ns {      column-rule-width: inherit; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .crw-thin-m {   column-rule-width: thin; }
   .crw-med-m {    column-rule-width: medium; }
   .crw-thick-m {  column-rule-width: thick; }
@@ -61,7 +61,7 @@ or download the css on github and include in your project.
   .crw-i-m {      column-rule-width: inherit; }
 }
 
-@include break(large) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .crw-thin-l {   column-rule-width: thin; }
   .crw-med-l {    column-rule-width: medium; }
   .crw-thick-l {  column-rule-width: thick; }
