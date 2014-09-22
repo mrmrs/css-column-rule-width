@@ -9,13 +9,18 @@
 *  -l  = large
 
 ## Install
+Grab the css partial from github and include it in your project or alternatively
+you can install it via npm:
 ```
 npm install --save-dev css-column-rule-width
 ```
-or download the css on github and include in your project.
+View on [npm](https://www.npmjs.org/package/css-column-rule-width)
+
 
 ## File Size
 
+2.1K column-rule-width.css
+1.5K column-rule-width.min.css
 
 ## The Code
 ```
