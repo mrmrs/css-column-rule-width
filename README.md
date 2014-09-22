@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-column-rule-width)
 ## File Size
 
 2.1K column-rule-width.css
-1.5K column-rule-width.min.css
+1.5K column-rule-width.min.css 
+285B minified and gzipped
 
 ## The Code
 ```
