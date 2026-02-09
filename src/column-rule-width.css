@@ -16,7 +16,7 @@
 
 .crw-i {      column-rule-width: inherit; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .crw-thin-s {   column-rule-width: thin; }
   .crw-med-s {    column-rule-width: medium; }
   .crw-thick-s {  column-rule-width: thick; }
@@ -30,7 +30,7 @@
   .crw-i-s {      column-rule-width: inherit; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .crw-thin-m {   column-rule-width: thin; }
   .crw-med-m {    column-rule-width: medium; }
   .crw-thick-m {  column-rule-width: thick; }
@@ -44,7 +44,7 @@
   .crw-i-m {      column-rule-width: inherit; }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .crw-thin-l {   column-rule-width: thin; }
   .crw-med-l {    column-rule-width: medium; }
   .crw-thick-l {  column-rule-width: thick; }
