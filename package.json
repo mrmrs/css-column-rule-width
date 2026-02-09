@@ -1,38 +1,44 @@
 {
   "name": "css-column-rule-width",
-  "style": "column-rule-width.css",
-  "version": "1.0.8",
-  "homepage": "http://github.com/mrmrs/css-column-rule-width",
-  "description": "Css module of single purpose classes for column rule width",
+  "version": "2.0.0",
+  "description": "Functional CSS for column-rule-width",
+  "style": "dist/column-rule-width.css",
+  "main": "dist/column-rule-width.css",
+  "exports": {
+    ".": "./dist/column-rule-width.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "column-rule-width"
+    "column-rule-width",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-column-rule-width": {
+  "homepage": "https://github.com/mrmrs/css-column-rule-width",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-column-rule-width.git"
+    "url": "https://github.com/mrmrs/css-column-rule-width.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-column-rule-width/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-column-rule-width/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
